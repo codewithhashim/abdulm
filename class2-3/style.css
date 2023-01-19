@@ -1,0 +1,37 @@
+/* 3rd priority */
+/* external css */
+/* universal selector - selects everything */
+*{
+
+}
+/* root element */
+html {
+    font-size: 10px;
+}
+
+/* Cascading Stylesheet */
+
+
+
+/* author defined properties */
+p {
+    color: green!important;
+}
+
+/* user agent stylesheet */
+
+.div {
+    font-size: 10px;
+
+}
+/* units */
+h3 {
+    /* font-size: 40px; */
+    /* font-size:40%; */
+    /* relative to root element */
+    /* font-size: 3rem; */
+    /* relative to parent element */
+    /* font-size: 3em; */
+    /* vw */
+    font-size: 3vw;
+}
